@@ -1,0 +1,94 @@
+body {
+    background-color: green;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    background: white;
+    position: relative;
+    margin: 3px;
+}
+.card p {
+    text-align: center;
+    font: 35px/80px Times New Roman, serif;
+}
+
+div.suit-hearts:before {
+    content: "♥";
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+}
+  
+div.suit-hearts:after {
+    content: "♥";
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: red;
+    transform: rotate(180deg);
+}
+  
+div.suit-diamonds:before {
+    content: "♦";
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+}
+  
+div.suit-diamonds:after {
+    content: "♦";
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: red;
+    transform: rotate(180deg);
+}
+  
+div.suit-spades:before {
+    content: "♠";
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+  
+div.suit-spades:after {
+    content: "♠";
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+    transform: rotate(180deg);
+}
+  
+div.suit-clubs:before {
+    content: "♣";
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+  
+div.suit-clubs:after {
+    content: "♣";
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+    transform: rotate(180deg);
+}
+  
